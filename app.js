@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 const date = require(__dirname + "/date.js");
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/todolistDB",
+  "mongodb+srv://admin-aleksey:<PASSWORD>@cluster0.35niqtr.mongodb.net/todolistDB?retryWrites=true",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

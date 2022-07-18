@@ -1,18 +1,18 @@
 html {
   background-color: #e4e9fd;
   background-image: -webkit-linear-gradient(65deg, #f76e11 50%, #e9e1d0 50%);
-  min-height: 1000px;
+  min-height: 60rem;
   font-family: "Inter", sans-serif;
 }
 
 h1 {
   color: #fff;
-  padding: 10px;
+  padding: 0.63rem;
 }
 
 .box {
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: 25rem;
+  margin: 3.125rem auto;
 }
 
 #heading {
@@ -22,12 +22,12 @@ h1 {
 }
 
 .item {
-  min-height: 70px;
+  min-height: 4.375rem;
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
   background: transparent;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -39,13 +39,13 @@ input:checked + p {
 input[type="checkbox"] {
   accent-color: #eb525a;
   cursor: pointer;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 p {
   margin: 0;
-  padding: 20px;
-  font-size: 20px;
+  padding: 1.25rem;
+  font-size: 1.25rem;
   font-weight: 200;
   color: #25241e;
 }
@@ -59,13 +59,13 @@ form.item {
 }
 
 button {
-  min-height: 50px;
-  width: 50px;
+  min-height: 3.125rem;
+  width: 3.125rem;
   border-radius: 50%;
   border-color: transparent;
   background-color: #ff9f45;
   color: #fff;
-  font-size: 30px;
+  font-size: 1.875rem;
   border-width: 0;
   transition: all 0.3s ease;
 }
@@ -80,9 +80,9 @@ input[type="text"] {
   border: none;
   background: transparent;
   color: #ffbc80;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 200;
-  width: 313px;
+  width: 75%;
 }
 
 input[type="text"]:focus {
